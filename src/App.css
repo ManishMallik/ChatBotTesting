@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+.circle {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  background-color: #CBB682;
+  border-radius: 50%;
+  bottom: 10px;
+  right: 20px;
+  position: fixed;
+  /* padding: 20px; */
+}
+
+.rightside {
+  bottom: 90px;
+  right: 30px;
+  position: fixed;
+}
+
+.floppington {
+  width: 65px;
+  height: 65px;
+  padding-left: 7px;
+}
+
+.floppington-avatar {
+  width: 70px;
+  height: 70px;
+}
+
+.text {
+  margin: auto;
+}
+
+.chatbot-btn {
+  background-color: #CCC;
+  color: black;
+  padding: .5rem 0.8rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+}
