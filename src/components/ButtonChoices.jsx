@@ -6,6 +6,18 @@ export default function Buttons(props) {
         props.actions.initialAction();
     }
 
+    const firstTimer = () => {
+        props.actions.firstTimer();
+    }
+
+    const notEnoughMoney = () => {
+        props.actions.notEnoughMoney();
+    }
+
+    const advice = () => {
+        props.actions.advice();
+    }
+
     const analyze = () => {
         props.actions.analyze();
     }
@@ -13,6 +25,9 @@ export default function Buttons(props) {
     return (
         <div>
             <button className='chatbot-btn' onClick={() => initialAction()}>About website</button>
+            <button className='chatbot-btn' onClick={() => firstTimer()}>New To Investing</button>
+            <button className='chatbot-btn' onClick={() => notEnoughMoney()}>Can't Buy Whole Property</button>
+            <button className='chatbot-btn' onClick={() => advice()}>Advice</button>
             <button className='chatbot-btn' onClick={() => analyze()}>Analyze Picks</button>
         </div>
     )

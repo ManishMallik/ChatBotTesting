@@ -14,9 +14,11 @@ const config = {
         botAvatar: (props) => <Avatar {...props} />,
     },
     customStyles: {
-      
+      botMessageBox: {
+        backgroundColor: "#CBB682",
+      },
       chatButton: {
-        backgroundColor: '#5ccc9d',
+        backgroundColor: '#253d5b',
       },
     },
     widgets: [

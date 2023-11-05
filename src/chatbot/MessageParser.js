@@ -6,10 +6,6 @@ const MessageParser = ({ children, actions }) => {
           console.log('hi');
           actions.handleHello();
         }
-
-        if (message.includes('dog')) {
-            actions.handleDog();
-          }
     };
 
   return (
