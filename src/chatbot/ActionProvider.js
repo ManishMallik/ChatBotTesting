@@ -42,7 +42,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
 
     const advice = () => {
       const botMessage = createChatBotMessage('When investing in real estate, there are factors to consider that can help you make invest wisely. ' + 
-      'First, you should consider the.',
+      'You should consider things like the investment score, price of the tokens, and expected APY.',
       {widget: 'Button Choices'});
   
       setState((prev) => ({
