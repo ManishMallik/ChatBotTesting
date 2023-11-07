@@ -28,7 +28,6 @@ export default function Buttons(props) {
             <button className='chatbot-btn' onClick={() => firstTimer()}>New To Investing</button>
             <button className='chatbot-btn' onClick={() => notEnoughMoney()}>Can't Buy Whole Property</button>
             <button className='chatbot-btn' onClick={() => advice()}>Advice</button>
-            <button className='chatbot-btn' onClick={() => analyze()}>Analyze Picks</button>
         </div>
     )
 }
