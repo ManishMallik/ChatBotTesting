@@ -52,7 +52,8 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
     };
 
     const analyze = () => {
-        const botMessage = createChatBotMessage('There are some factors to consider when choosing a token to invest in.',
+        const botMessage = createChatBotMessage('When investing in real estate, there are factors to consider that can help you make invest wisely. ' + 
+        'You should consider things like the investment score, price of the tokens, and expected APY.',
         {widget: 'Button Choices'});
     
         setState((prev) => ({
