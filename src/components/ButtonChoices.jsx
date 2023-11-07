@@ -18,10 +18,6 @@ export default function Buttons(props) {
         props.actions.advice();
     }
 
-    const analyze = () => {
-        props.actions.analyze();
-    }
-
     return (
         <div>
             <button className='chatbot-btn' onClick={() => initialAction()}>About website</button>
